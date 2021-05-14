@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  padding: 3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr;
+  }
+}
+
+.child {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.child img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  margin: 0 1rem;
+}
+
+.child a {
+  color: rgb(161, 157, 157);
+  float: left;
+}
