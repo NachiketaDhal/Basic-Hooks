@@ -1,6 +1,6 @@
 import React from "react";
-import Setup from "./tutorial/6-useReducer/setup";
-// import Setup from "./tutorial/6-useReducer/final";
+// import Setup from "./tutorial/12-memo-useMemo-useCallback/final";
+import Setup from "./tutorial/12-memo-useMemo-useCallback/setup";
 
 function App() {
   return (

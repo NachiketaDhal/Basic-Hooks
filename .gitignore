@@ -23,15 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 README.md
-src/tutorial/1-useState/final/
-src/tutorial/2-useEffect/final/
-src/tutorial/3-conditional-rendering/final/
-src/tutorial/4-forms/final/
-src/tutorial/5-useRef/final/
-src/tutorial/6-useReducer/final/
-src/tutorial/7-prop-drilling/final/
-src/tutorial/8-useContext/final/
-src/tutorial/9-custom-hooks/final/
-src/tutorial/10-prop-types/final/
-src/tutorial/11-react-router/final/
-src/tutorial/12-memo-useMemo-useCallback/final/
+*.md
+final/
